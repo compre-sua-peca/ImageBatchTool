@@ -69,7 +69,7 @@ class interfaceApp(tk.Tk):
             )
         self.operation_var = tk.StringVar(value="rotate")
         ttk.Label(frm, text="Operação: ").grid(
-            row=4, column=1, sticky="e", **pad
+            row=4, column=1, sticky="w", **pad
         )
         ttk.Radiobutton(
             frm,
